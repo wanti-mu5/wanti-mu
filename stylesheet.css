@@ -4,11 +4,22 @@
   body {
     background-color: #e9edf1;
  }
+ ul, ol {
+  color: #1e366a;
+  border-top: solid #1e366a 1px;/*上のボーダー*/
+  border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
 
  .header{
   height: 60px;
   width: 1200px;
-  background-color:#1100ff;
+  background-color:#006eff;
   color: #ffffff;
 }
   
@@ -26,7 +37,7 @@
 .footer{
   height:80px;
   width:1200px;
-  background-color: #00008b;
+  background-color: #008b56;
   color: #ffffff;
 }
 

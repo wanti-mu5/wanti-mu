@@ -1,8 +1,43 @@
 .title {
-    color: #3f02cc;
+    color: #0c041d;
   }
-  .gradient { 
-    background:linear-gradient(45deg, #0024c5, #fff); 
-    height: 500px;
-    border: 1px solid #333;
-  }
+  body {
+    background-color: #e9edf1;
+ }
+
+ .header{
+  height: 60px;
+  width: 1200px;
+  background-color:#1100ff;
+  color: #ffffff;
+}
+  
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding: 10px 20px;
+}
+  
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+}
+.footer{
+  height:80px;
+  width:1200px;
+  background-color: #00008b;
+  color: #ffffff;
+}
+
+.footer-logo {
+  float:left;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+  
+.footer-list li {
+  list-style: none;
+  float: right;
+  padding: 15px 20px;
+}
